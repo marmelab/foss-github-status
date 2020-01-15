@@ -1,80 +1,85 @@
-# FOSS Starter Kit
+# FOSS Github Status
 
- ![Travis (.com)](https://img.shields.io/travis/com/marmelab/foss-starter-kit.svg) ![GitHub top language](https://img.shields.io/github/languages/top/marmelab/foss-starter-kit.svg) ![GitHub contributors](https://img.shields.io/github/contributors/marmelab/foss-starter-kit.svg) ![foss-starter-kit.svg](https://img.shields.io/github/license/marmelab/foss-starter-kit.svg) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/marmelab/foss-github-status.svg) ![foss-github-status.svg](https://img.shields.io/github/license/marmelab/foss-github-status.svg) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-During a major spring cleanup of Marmelab open-source projects, we spent a lot of time homogenizing access to these projects. This repository is intended to centralize the sample files to be added to our future open-source projects.
+A status header collection for archived open-source projects.
 
-## Installation
+## List of archiving status
 
-```bash
-make install
-```
+### Publication
 
-## Usage
+For a repository containing code related to a publication or presentation.
 
-```bash
-make start
-```
+<table>
+        <tr>
+            <td><img width="60" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/book.svg" alt="publication" /></td>
+            <td><strong>Archived Repository</strong><br />
+            The code of this repository was written to illustrate the blog post <a href="https://marmelab.com/blog">Blog post title</a><br />
+        <strong>This code is not intended to be used in production, and is not maintained.</strong>
+        </td>
+        </tr>
+</table>
 
-## Contributing
+### Hackday
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+<table>
+        <tr>
+            <td><img width="60" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/beaker.svg" alt="hackday" /></td>
+            <td><strong>Archived Repository</strong><br />
+                    The code of this repository was written during a <strong>Hack Day</strong> by a <a href="https://marmelab.com/en/jobs">Marmelab developer</a>. It's part of the distributed R&D effort at Marmelab, where each developer spends 2 days a month for learning and experimentation.<br />
+        <strong>This code is not intended to be used in production, and is not maintained.</strong>
+        </td>
+        </tr>
+</table>
 
-Please make sure to update tests as appropriate.
+### Onboarding
 
-```bash
-make test
-```
+<table>
+        <tr>
+            <td><img width="120" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/rocket.svg" alt="onboarding" /></td>
+            <td><strong>Archived Repository</strong><br />
+            The code of this repository was written during a <a href="https://marmelab.com/blog/2018/09/05/agile-integration.html">Marmelab agile integration</a>. It illustrates the efforts of a new hiree, who had to implement a board game in several languages and platforms as part of his initial learning. Some of these efforts end up in failure, but failure is part of our learning process, so the code remains publicly visible.<br />
+        <strong>This code is not intended to be used in production, and is not maintained.</strong>
+        </td>
+        </tr>
+</table>
+<table>
+        <tr>
+            <td><img width="120" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/rocket.svg" alt="onboarding" /></td>
+            <td><strong>Archived Repository</strong><br />
+            The code of this repository was written during a <a href="https://marmelab.com/blog/2018/09/05/agile-integration.html">Marmelab agile integration</a>. <a href="https://marmelab.com/blog/2017/02/10/awale-en-python.html">The associated blog post</a> illustrates the efforts of the new hiree, who had to implement a board game in several languages and platforms as part of his initial learning.<br />
+        <strong>This code is not intended to be used in production, and is not maintained.</strong>
+        </td>
+        </tr>
+</table>
 
-To learn more about the contributions to this project, consult the [contribution guide](/.github/CONTRIBUTING.md).
+### Deprecated
 
-## Author
+<table>
+        <tr>
+            <td><img width="40" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/stop.svg" alt="deprecated" /></td>
+            <td><strong>Archived Repository</strong><br />
+            This code is no longer maintained. GraphQL packages for react-admin can be found in the main repository at https://github.com/marmelab/react-admin.
+        </td>
+        </tr>
+</table>
+
+### Archived
+
+<table>
+        <tr>
+            <td><img width="20" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/archive.svg" alt="archived" /></td>
+            <td><strong>Archived Repository</strong><br />
+            This code is no longer maintained. Feel free to fork it, but use it at your own risks.
+        </td>
+        </tr>
+</table>
+
+## Maintainer
 
 [![alexisjanvier](https://avatars1.githubusercontent.com/u/547706?s=96&amp;v=4)](https://github.com/alexisjanvier)     
 [Alexis Janvier](https://github.com/alexisjanvier) 
 
-[![djhi](https://avatars1.githubusercontent.com/u/1122076?s=96&amp;v=4)](https://github.com/djhi)     
-[Gildas Garcia](https://github.com/djhi)    
-
-[![floo51](https://avatars3.githubusercontent.com/u/2562270?s=96&amp;v=4)](https://github.com/floo51)     
-[Florian F.](https://github.com/floo51)    
-
-[![fzaninotto](https://avatars2.githubusercontent.com/u/99944?s=96&amp;v=4)](https://github.com/fzaninotto)     
-[Francois Zaninotto](https://github.com/fzaninotto)  
-
-[![jdemangeon](https://avatars1.githubusercontent.com/u/1064780?s=96&amp;v=4)](https://github.com/jdemangeon)     
-[Julien Demangeon](https://github.com/jdemangeon)  
-
-[![JulienMattiussi](https://avatars2.githubusercontent.com/u/39904906?s=96&amp;v=4)](https://github.com/JulienMattiussi)     
-[JulienM](https://github.com/JulienMattiussi)  
-     
-[![Kmaschta](https://avatars2.githubusercontent.com/u/1819833?s=96&amp;v=4)](https://github.com/Kmaschta)     
-[Kmaschta](https://github.com/Kmaschta)  
-
-[![Luwangel](https://avatars2.githubusercontent.com/u/5584839?s=96&amp;v=4)](https://github.com/Luwangel)     
-[Adrien Amoros](https://github.com/Luwangel) 
-      
-[![pemoreau](https://avatars2.githubusercontent.com/u/1090025?s=96&amp;v=4)](https://github.com/pemoreau)     
-[Pierre-Etienne Moreau](https://github.com/pemoreau) 
-
-[![ThieryMichel](https://avatars3.githubusercontent.com/u/4034399?s=96&amp;v=4)](https://github.com/ThieryMichel)     
-[ThieryMichel](https://github.com/ThieryMichel) 
-      
-[![zyhou](https://avatars2.githubusercontent.com/u/2212144?s=96&amp;v=4)](https://github.com/zyhou)     
-[Maxime Richard](https://github.com/zyhou) 
-
-[![mchaffotte](https://avatars2.githubusercontent.com/u/4921926?s=460&v=4)](https://github.com/mchaffotte)     
-[Matthieu Chaffotte](https://github.com/mchaffotte) 
-
-[![HALLERPierre](https://media.licdn.com/dms/image/C5603AQGJ25y2leHvgQ/profile-displayphoto-shrink_200_200/0?e=1577318400&v=beta&t=ee-itvEFGMf3PgjZ735QqGavcgTCkJOoc5IKQwwLM3Q)](https://github.com/HALLERPierre)     
-[Pierreh](https://github.com/HALLERPierre) 
-
-## Team
-
-[![JulienMattiussi](https://avatars2.githubusercontent.com/u/39904906?s=96&amp;v=4)](https://github.com/JulienMattiussi) | [![Kmaschta](https://avatars2.githubusercontent.com/u/1819833?s=96&amp;v=4)](https://github.com/Kmaschta) | [![Luwangel](https://avatars2.githubusercontent.com/u/5584839?s=96&amp;v=4)](https://github.com/Luwangel)
-:---:|:---:|:---:
-[JulienM](https://github.com/JulienMattiussi) | [Kmaschta](https://github.com/Kmaschta) | [Adrien Amoros](https://github.com/Luwangel)
-
 ## License
 
-foss-starter-kit is licensed under the [MIT License](LICENSE), courtesy of [Marmelab](http://marmelab.com).
+foss-github-status is licensed under the [MIT License](LICENSE), courtesy of [Marmelab](http://marmelab.com).
